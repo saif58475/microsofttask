@@ -1,0 +1,119 @@
+*{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar ul{
+    
+    margin: 0px;
+    list-style: none;
+display: flex;
+overflow: hidden;
+
+}
+.navbar ul li a{
+text-decoration: none;
+font-size: 1.2rem;
+margin: 0px 10px;
+align-items: center;
+color: black;
+}
+/* the first section */
+.container{
+
+    height: 40%;
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.words-on-home{
+    position: absolute;
+    top:150px;
+    left:150px;
+    color: white;
+}
+.btn{
+    background-color: white;
+    padding: 1.1rem;
+    font-weight: 700;
+}
+/* the second & fourth section */
+.container-two{
+    margin-top: 5%;
+    left: 20px;
+    justify-content: center;
+    display: flex;
+  flex-wrap: nowrap;
+  
+}
+.sample{
+  margin: 18px;
+  text-align: start;
+}
+.btn-sec-2{
+    background-color: transparent;
+    border: 0px;
+    font-size: larger;
+}
+.btn-sec-2 a{
+    text-decoration: none;
+}
+
+
+
+
+/* the third section */
+.words-on-third{
+    position: absolute;
+    top:150px;
+    left:150px;
+    color: black;
+}
+#btn-third{
+    color: white;
+    padding: 1.1rem;
+    font-weight: 700;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+/* the social media section */
+.cont{
+    width: 80%;
+    margin: auto;
+    
+    justify-content: space-between;
+}
+.socialmedia{
+    margin: 5px;
+    
+    display: inline-flex;
+  margin-right:1.5em;
+    
+}
+/* the footer */
+.footer{
+    margin-top: 5%;
+padding: 30px;
+    background-color: lightgray;
+}
+.footer thead tr td {
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer tr td a{
+    color: black;
+    text-decoration: none;
+    
+}
+.footer tr td a:hover{
+    border-bottom: 2px solid black;
+}
+
