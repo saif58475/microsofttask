@@ -16,6 +16,9 @@ margin: 0px 10px;
 align-items: center;
 color: black;
 }
+.navbar ul li a:hover{
+    border-bottom: 3px solid black;
+}
 /* the first section */
 .container{
 
